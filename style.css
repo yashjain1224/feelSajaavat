@@ -548,7 +548,9 @@ footer .copyright {
 }
 
 #pagination {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #pagination a {
