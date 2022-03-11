@@ -55,7 +55,7 @@
         </div>
 
         <div class="single-pro-details">
-            <h6>Home /  T-Shirt</h6>
+            <h6>Home / T-Shirt</h6>
             <h6>Men's Fashion T-Shirt</h6>
             <h2>$139.00</h2>
             <select>
@@ -66,9 +66,80 @@
                 <option>Orange</option>
             </select>
             <input type="number" value="1">
-            <button>Add To Cart</button>
+            <button class="normal">Add To Cart</button>
             <h4>Product Details</h4>
             <span>🎈 WATER BALLOON 🎈:- Just connect one Bunch to a Running Tap & amaze yourself by Seeing these balloons fil Up,in less than a Minute & Attack your Friends who are still filling up their first balloon. These also Avoids the Wastage of Water</span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">  <!-- Pick Your Theme Section -->
+        <h2>Featured Products!</h2>
+        <p>Some of our Premium Collection...</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/p1.jfif" alt="">
+                <div class="des">
+                    <span>Party Propz</span>
+                    <h5>Birthday Balloons</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <button>Shop Now</button>
+            </div>
+            <div class="pro">
+                <img src="img/products/p2.jfif" alt="">
+                <div class="des">
+                    <span>Party Propz</span>
+                    <h5>Birthday Balloons</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <button>Shop Now</button>
+            </div>
+            <div class="pro">
+                <img src="img/products/p3.jfif" alt="">
+                <div class="des">
+                    <span>Party Propz</span>
+                    <h5>Birthday Balloons</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <button>Shop Now</button>
+            </div>
+            <div class="pro">
+                <img src="img/products/p4.jfif" alt="">
+                <div class="des">
+                    <span>Party Propz</span>
+                    <h5>Birthday Balloons</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <button>Shop Now</button>
+            </div>
         </div>
     </section>
 
@@ -140,6 +211,25 @@
         </div>
 
     </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function() {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function() {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function() {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function() {
+            MainImg.src = smallimg[3].src;
+        }
+
+    </script>
 
     <script src="script.js"></script>
 </body>
