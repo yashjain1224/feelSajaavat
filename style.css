@@ -173,7 +173,7 @@ body {
 
 #navbar li a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: #1a1a1a;
   transition: 0.3s ease;
@@ -240,6 +240,17 @@ body {
 }
 
 #feature_text {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#feature_text1 {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#feature_text2 {
   padding-top: 40px;
   text-align: center;
 }
@@ -384,11 +395,11 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("img/banner/blur_edges\ \(1\).jpg");
+  background-image: url("img/banner/Car\ Boot\ Surprise\ !!.png");
   width: 100%;
   height: 40vh;
   padding-top: 150px;
-  padding-right: 300px;
+  padding-right: 250px;
   background-size: cover;
   background-position: center;
 }
