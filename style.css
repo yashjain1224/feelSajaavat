@@ -404,6 +404,11 @@ body {
   background-position: center;
 }
 
+#banner a {
+  text-decoration: none;
+  color: #000;
+}
+
 #banner h4 {
   color: #ffffff;
   font-size: 16px;
@@ -420,7 +425,11 @@ body {
 }
 
 #banner button:hover {
-  background: #088178;
+  background: #000;
+  color: #fff;
+}
+
+#banner button:hover a {
   color: #fff;
 }
 
