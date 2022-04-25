@@ -177,6 +177,7 @@ body {
 }
 
 #navbar li input {
+  position: relative;
   height: 2.125rem;
   padding: 0 1.25em;
   font-size: 14px;
@@ -184,6 +185,13 @@ body {
   border: 1px solid rgb(114, 109, 109);
   border-radius: 32px;
   outline: none;
+  padding-left: 35px;
+}
+
+#search {
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 #navbar li a {
