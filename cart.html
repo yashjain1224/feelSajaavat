@@ -13,7 +13,7 @@
 <body>
 
     <section id="header">
-        <a href="#"><img src="img/feelSajaavat_logo_header.png" class="logo" alt=""></a>
+        <a href="index.html"><img src="img/feelSajaavat_logo_header.png" class="logo" alt=""></a>
 
         <div>
             <ul id="navbar">
@@ -44,7 +44,6 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li id="lg-search"><a href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                 <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                 <a href="#" id="close"><i class="fa fa-times"></i></a>
             </ul>
@@ -79,7 +78,13 @@
                     <td><img src="img/products/f1.jpg" alt=""></td>
                     <td>Cartoon Astronaut T-Shirts</td>
                     <td>$118.19</td>
-                    <td><input type="number" value="1"></td>
+                    <td>
+                        <div class="wrapper">
+                            <span class="minus">-</span>
+                            <span class="num">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                    </td>
                     <td>$118.19</td>
                 </tr>
                 <tr>
@@ -87,7 +92,13 @@
                     <td><img src="img/products/f2.jpg" alt=""></td>
                     <td>Cartoon Astronaut T-Shirts</td>
                     <td>$118.19</td>
-                    <td><input type="number" value="1"></td>
+                    <td>
+                        <div class="wrapper">
+                            <span class="minus">-</span>
+                            <span class="num">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                    </td>
                     <td>$118.19</td>
                 </tr>
                 <tr>
@@ -95,7 +106,13 @@
                     <td><img src="img/products/f3.jpg" alt=""></td>
                     <td>Cartoon Astronaut T-Shirts</td>
                     <td>$118.19</td>
-                    <td><input type="number" value="1"></td>
+                    <td>
+                        <div class="wrapper">
+                            <span class="minus">-</span>
+                            <span class="num">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                    </td>
                     <td>$118.19</td>
                 </tr>
             </tbody>
@@ -202,6 +219,29 @@
         </div>
 
     </footer>
+
+    <script>
+        const plus = document.querySelector(".plus"),
+	        minus = document.querySelector(".minus"),
+	        num = document.querySelector(".num");
+
+	        let a = 1;
+
+	        plus.addEventListener("click", ()=>{
+		        a++;
+                a = (a < 10) ? a : a;
+                num.innerText = a;
+		        console.log(a);
+	        });
+
+            minus.addEventListener("click", ()=>{
+		        if(a > 1) {
+                    a--;
+                    a = (a < 10) ? a : a;
+                    num.innerText = a;
+                }
+	        });
+    </script>
 
     <script src="script.js"></script>
 </body>
