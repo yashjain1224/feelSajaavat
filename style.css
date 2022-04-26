@@ -1035,6 +1035,46 @@ footer .copyright {
   margin-left: 32%;
 }
 
+#cart table tbody td .wrapper-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 0px solid #000;
+}
+
+#cart table tbody td .wrapper-box .button {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#cart table tbody td .wrapper-box .button:active {
+  background: #ccc;
+}
+
+#cart table tbody td .wrapper-box input {
+  width: 50px;
+  height: 25px;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  display: flex;
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 #cart table tbody td .wrapper span {
   width: 100%;
   text-align: center;

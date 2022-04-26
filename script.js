@@ -65,3 +65,26 @@ function slidefun(n) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/* const plus = document.getElementById('plus');
+const minus = document.getElementById('minus');
+const num = document.getElementById('num');
+
+				plus.addEventListener("click", ()=>{
+					let a = 1;
+					a++;
+					a = (a < 10) ? a : a;
+					num.innerText = a;
+					console.log(a);
+				});
+
+            minus.addEventListener("click", ()=>{
+		        if(a > 1) {
+                    a--;
+                    a = (a < 10) ? a : a;
+                    num.innerText = a;
+                }
+	        });
+*/
+
+
+
