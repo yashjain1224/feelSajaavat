@@ -86,7 +86,7 @@ button.new1 {
   color: #000000;
   background-color: #ffffff;
   cursor: pointer;
-  border: 1px solid #000;
+  border: 0px;
   outline: none;
   transition: 0.2s;
 }
@@ -118,7 +118,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1px 60px;
-  background: #ffffff;
+  background: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   z-index: 999;
   position: sticky;
@@ -548,15 +548,29 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("img/baby_shower_1.jpg");
+  background-image: url("img/birthday.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-width: 32.5%;
-  height: 50vh;
-  background-size: cover;
+  min-width: 32%;
+  height: 55vh;
   background-position: center;
-  padding: 20px;
   margin-bottom: 20px;
+}
+
+#banner4 .banner-box:nth-child(1) {
+  background-image: url("img/2D6CC9E6-6DCB-4FB8-9486-5E4296AD66C5.JPEG");
+}
+
+#banner4 .banner-box:nth-child(2) {
+  background-image: url("img/Get-Your-Ears-On-A-Mickey-and-Minnie-Celebration-at-Disneyland-ResortDSC_5225b-1-696x464-1.jpg");
+}
+
+#banner4 .banner-box:nth-child(3) {
+  background-image: url("img/71YXuB8ncSL._SX679_.jpg");
+}
+
+#banner4 .banner-box:nth-child(6) {
+  background-image: url("img/baby_shower_1.jpg");
 }
 
 #banner4 .banner-box:hover {
