@@ -1377,6 +1377,18 @@ footer .copyright {
     font-size: 32px;
   }
 
+  button.new1 {
+    font-size: 8px;
+    font-weight: 600;
+    padding: 5px 10px;
+    color: #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: 0px;
+    outline: none;
+    transition: 0.2s;
+  }
+
   #hero {
     padding: 0 20px;
     background-position: 55%;
