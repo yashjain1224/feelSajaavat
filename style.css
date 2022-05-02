@@ -1369,12 +1369,30 @@ footer .copyright {
     padding: 10px 30px;
   }
 
+  #page-header {
+    height: 20vh;
+  }
+
+  #page-header h2 {
+    font-size: 24px;
+    line-height: 20px;
+  }
+
+  #page-header p {
+    font-size: 12px;
+  }
+
   #h1 {
     font-size: 38px;
   }
 
-  #h2 {
-    font-size: 32px;
+  h2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  p {
+    font-size: 12px;
   }
 
   button.new1 {
@@ -1404,7 +1422,10 @@ footer .copyright {
   }
 
   #product1 .pro {
-    width: 100%;
+    width: 45%;
+    min-width: 50px;
+    padding: 5px 6px;
+    margin: 8px;
   }
 
   #banner {
@@ -1420,7 +1441,7 @@ footer .copyright {
     padding-right: 10px;
     background-size: cover;
     background-position: center;
-}
+  }
 
   button.normal {
     font-size: 10px;
@@ -1503,6 +1524,11 @@ footer .copyright {
   #newsletter .form {
     width: 100%;
   }
+
+
+  /* Shop Page */
+
+
 
 
   /* Single Product */
